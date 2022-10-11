@@ -1,8 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 
-function AddNotesForm() {
+function AddNotesForm({ handleNewData }) {
+ const history = useHistory();
+  const [newNote, setNewNote] = useState({
+    category: "",
+    text: "",
+    date: "",
+  });
   function handleChange(e) {
-    console.log(e.target.value);
+    let name = e.target.name;
+    let value = e.target.value;
+    setNewNote({
+      ...newNote,
+      [name]: value,
+    });
+  }
+  console.log(newNote);
+  function handleSubmit(e) {
+    e.preventDefault();
+    fetch("http://localhost:3000/notes", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newNote),
+    });
+    history.push("/");
+    handleNewData();
   }
   return (
     <div>
