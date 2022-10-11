@@ -1,15 +1,34 @@
 {
-  "notes":[
+  "notes": [
     {
-      "id":1,
+      "id": 1,
       "text": "Grocery Shopping",
       "category": "Food",
       "date": "2022/10/01"
-
     },
-    {"id":2,
-    "text": "Buy a new laptop",
-    "category": "School",
-    "date": "2023/01/01"}
+    {
+      "id": 2,
+      "text": "Buy a new laptop",
+      "category": "School",
+      "date": "2023/01/01"
+    },
+    {
+      "category": "bbb",
+      "text": "sedvucweurvu",
+      "date": "2022-10-11",
+      "id": 3
+    },
+    {
+      "category": "whedu",
+      "text": "hgvcgysdvwcs",
+      "date": "2022-10-11",
+      "id": 4
+    },
+    {
+      "category": "werugfuy",
+      "text": "wefuwyevfbu",
+      "date": "2022-10-13",
+      "id": 5
+    }
   ]
 }
