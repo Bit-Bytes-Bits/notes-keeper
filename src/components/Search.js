@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
 
 function Search() {
+  function handleSearch(){
+    // console.log(e.target.value)
+  }
+
   return (
-    <div>Search</div>
-  )
+    <div className="search">
+      <input
+        type="text"
+        placeholder="Search for your note"
+        onChange={handleSearch}
+      />
+    </div>
+  );
 }
 
-export default Search
+export default Search;

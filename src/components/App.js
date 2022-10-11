@@ -5,6 +5,7 @@ import {Switch, Route} from "react-router-dom"
 import HomePage from './HomePage';
 import AllNotes from './AllNotes'
 import AddNotesForm from './AddNotesForm';
+import Search from './Search';
 
 function App() {
   const[notes, setNotes]=useState([])
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="App">
      <NavBar/>
+     <Search />
      <Switch>
       <Route exact path="/notes">
         <AllNotes/>
@@ -34,6 +36,7 @@ function App() {
         <HomePage notes={notes}/>
       </Route>
      </Switch>
+     
     </div>
   );
 }
