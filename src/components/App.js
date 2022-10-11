@@ -8,6 +8,7 @@ import AddNotesForm from './AddNotesForm';
 
 function App() {
   const[notes, setNotes]=useState([])
+  const[newData, setNewData]=useState(false)
   useEffect(()=>{
     fetch('http://localhost:3000/notes')
     .then(res=>res.json())
@@ -15,7 +16,10 @@ function App() {
       console.log(data)
       setNotes(data)
     })
-  },[])
+  },[newData])
+  function handleNewData(){
+    setNewData(newData=>!newData)
+  }
   return (
     <div className="App">
      <NavBar/>
@@ -24,7 +28,7 @@ function App() {
         <AllNotes/>
       </Route>
       <Route exact path="/addnotes">
-        <AddNotesForm/>
+        <AddNotesForm handleNewData={handleNewData}/>
       </Route>
       <Route exact path="/">
         <HomePage notes={notes}/>
