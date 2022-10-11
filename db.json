@@ -1,0 +1,15 @@
+{
+  "notes":[
+    {
+      "id":1,
+      "text": "Grocery Shopping",
+      "category": "Food",
+      "date": "2022/10/01"
+
+    },
+    {"id":2,
+    "text": "Buy a new laptop",
+    "category": "School",
+    "date": "2023/01/01"}
+  ]
+}
