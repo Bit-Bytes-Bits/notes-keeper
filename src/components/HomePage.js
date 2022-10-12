@@ -1,16 +1,11 @@
 import React from "react";
+import NotesList from "./NotesList";
 
-function HomePage({ notes }) {
-  // console.log(notes)
-
-  const list = notes.map((note) => (
-    <div>
-      <h3>{note.category}</h3>
-      <h4>{note.date}</h4>
-      <p>{note.text}</p>
-    </div>
-  ));
-  return <div>{list}</div>;
+function HomePage({ notes, search,onDelete }) {
+  const noteList=notes.filter((note)=>note.text.toLowerCase().includes(search.toLowerCase()))
+  return <div className="noteContainer">
+  {noteList.map((note)=><NotesList id={note.id} note={note} onDelete={onDelete}/>)}
+  </div>;
 }
 
 export default HomePage;
