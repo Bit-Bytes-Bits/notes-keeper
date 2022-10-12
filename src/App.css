@@ -1,4 +1,43 @@
+body{
+  background-color: #191d2b;
+}
 .App {
+  /* text-align: center; */
+  /* border: solid red 3px; */
+  padding: 4rem;
+  /* background-color: var(--color-primary); */
+}
+
+:root {
+  --color-primary: #191d2b;
+  --color-secondary: #27AE60;
+  --color-white: #FFFFFF;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  /* border: solid red 3px; */
+  padding: 10px;
+
+}
+
+.search{
+  padding: 10px;
+  /* border:solid yellow 5px; */
   text-align: center;
+}
+
+.search input{
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #27AE60;
+}
+.noteContainer{
+  display: grid;
+  gap: 50px 100px;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  /* border: solid green 2px; */
 }
 
