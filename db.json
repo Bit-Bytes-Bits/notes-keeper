@@ -13,28 +13,22 @@
       "date": "2023/01/01"
     },
     {
-      "category": "bbb",
-      "text": "sedvucweurvu",
-      "date": "2022-10-11",
-      "id": 3
-    },
-    {
       "category": "whedu",
       "text": "hgvcgysdvwcs",
       "date": "2022-10-11",
       "id": 4
     },
     {
-      "category": "werugfuy",
-      "text": "wefuwyevfbu",
-      "date": "2022-10-13",
-      "id": 5
-    },
-    {
       "category": "School",
       "text": "Submit project by end of day",
       "date": "2022-10-12",
       "id": 6
+    },
+    {
+      "category": "Trip",
+      "text": "check weather forecast and call Jimmy to plan on further for our road trip. Remember to carry an umbrella",
+      "date": "2022-10-13",
+      "id": 7
     }
   ]
 }

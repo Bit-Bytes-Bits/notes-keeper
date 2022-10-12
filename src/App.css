@@ -58,7 +58,7 @@ body{
 .noteContainer{
   display: grid;
   gap: 50px 20px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 30% 30% 30%;
 }
 
 .noteList{

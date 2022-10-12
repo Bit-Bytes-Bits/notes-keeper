@@ -1,8 +1,39 @@
-# Getting Started with Create React App
+# About The Project:
+
+            End of Phase 2 Project Assignment
+
+## Project Name
+
+            Notes Keeper 
+
+## Author Details:
+
+#### Name:
+    Ian Mike Kaibi
+#### Email: 
+    ian.kaibi@student.moringaschool.com
+
+Reach out on Twitter:
+
+[Code Sketcher](https://twitter.com/Bit_Bytes_Bits)
+
+## Table of Contents
+
+- [Description](#description)
+- [Project Build Up](#project-build-up)
+- [Requirements](#requirements)
+- [Program Setup](#program-setup)
+- [Live Link](#live-link-to-project)
+- [Project Images](#project-images)
+- [License](#license-information)
+
+## Description
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -14,57 +45,74 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Build Up
+    This project is built in React JS and styled in CSS. All dependancies required to run this apllication can be installed by running:
+`npm install`
 
-### `npm run build`
+## Requirements
+- A computer.  
+* Visual studio code editor and these dependacies installed:  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+          * React Router version 5.0.0.
+          * JSON Server.
+          * Prettier formater.
+          * Node JS should be installed prior to executing the codes on your computer.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* A working internet connection.
 
-### `npm run eject`
+## Program Setup
+1. Clone the repository to your computer using:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+        git clone (link to repository)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Open the root of the folder on your visual studio code.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Run Live share and view the rendered page on your browser. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Live Link To Project:  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Click here]()
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Project Images
+Home Page
+![view](./src/images/home.png)  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Search component
+![view](./src/images/Search.png)  
 
-### Analyzing the Bundle Size
+Input Form
+![view](./src/images/formInput.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Input Form
+![view](./src/images/inputReflects.png)
 
-### Making a Progressive Web App
+Delete Action
+![view](./src/images/delete.png)
+## License Information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The MIT License (MIT)
+Copyright © 2022 [Ian Mike Kaibi](https://github.com/Bit-Bytes-Bits)  
 
-### Advanced Configuration
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Deployment
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you.
