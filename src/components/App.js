@@ -11,10 +11,9 @@ function App() {
   const [newData, setNewData] = useState(false);
   const [search, setSearch] = useState("")
   useEffect(() => {
-    fetch("http://localhost:3000/notes")
+    fetch("https://notes-keeper-backend.herokuapp.com/notes")
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setNotes(data);
       });
   }, [newData]);
@@ -22,7 +21,7 @@ function App() {
     setNewData((newData) => !newData);
   }
   function onDelete(id){
-    fetch(`http://localhost:3000/notes/${id}`,{
+    fetch(`https://notes-keeper-backend.herokuapp.com/notes/${id}`,{
       method:"DELETE",
     })
     .then(res=>res.json())

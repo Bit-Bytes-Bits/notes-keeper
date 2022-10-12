@@ -19,7 +19,7 @@ function AddNotesForm({ handleNewData }) {
   console.log(newNote);
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/notes", {
+    fetch("https://notes-keeper-backend.herokuapp.com/notes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
