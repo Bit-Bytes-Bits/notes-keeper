@@ -10,7 +10,7 @@ function Search({setSearch}) {
     <div className="search">
       <input
         type="text"
-        placeholder="Search for your note"
+        placeholder="Search notes by content"
         onChange={handleSearch}
       />
     </div>

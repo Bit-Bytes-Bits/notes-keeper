@@ -3,12 +3,14 @@ import { NavLink } from 'react-router-dom'
 
 function NavBar() {
   return (
+    <>
     <div className='nav'>
       <NavLink className="navlink" to="/">Home</NavLink>
       <NavLink className="navlink" to="/addnotes">Add Notes</NavLink>
-      {/* <NavLink to="/notes">View Notes</NavLink> */}
       
     </div>
+    <div className='welcome'>Welcome to your Notes Keeper Application</div>
+    </>
   )
 }
 

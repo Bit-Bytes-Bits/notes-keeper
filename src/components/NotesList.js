@@ -10,7 +10,9 @@ function NotesList({id, note,onDelete}) {
       <p>{note.date}</p>
       <h4>Note:</h4>
       <p>{note.text}</p>
-      <button className="deleteBtn" onClick={()=>onDelete(id)}><img src={logo} className="App-logo" alt="logo" /></button>
+      <button className="deleteBtn" onClick={()=>onDelete(id)}>
+      <img src={logo} className="App-logo" alt="logo" />
+      </button>
     </div>
   );
 }

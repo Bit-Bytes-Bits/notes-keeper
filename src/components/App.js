@@ -3,7 +3,6 @@ import "../App.css";
 import NavBar from "./NavBar";
 import { Switch, Route } from "react-router-dom";
 import HomePage from "./HomePage";
-import AllNotes from "./AllNotes";
 import AddNotesForm from "./AddNotesForm";
 import Search from "./Search";
 
@@ -38,9 +37,6 @@ function App() {
       <NavBar />
       <Search setSearch={setSearch}/>
       <Switch>
-        <Route exact path="/notes">
-          <AllNotes />
-        </Route>
         <Route exact path="/addnotes">
           <AddNotesForm handleNewData={handleNewData} />
         </Route>

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
 body{
   background-color: #191d2b;
+  font-family: 'Comic Neue', cursive;
 }
 
 .App {
@@ -24,6 +27,15 @@ body{
   text-decoration: none;
   color: #FFFFFF;
   padding: 10px;
+  font-size: 24px;
+  margin-bottom: 3%;
+}
+
+.welcome{
+  text-align: center;
+  color: #27AE60;
+  font-size: 20px;
+  margin: 2%;
 }
 
 .navlink{
@@ -34,12 +46,14 @@ body{
 .search{
   padding: 10px;
   text-align: center;
+  margin-bottom: 3%;
 }
 
 .search input{
   padding: 10px;
   border-radius: 15px;
   box-shadow: 1px 1px 1px #27AE60;
+  width: 40%;
 }
 .noteContainer{
   display: grid;
@@ -95,4 +109,10 @@ body{
   overflow: visible;
   border-radius: 10px;
   margin-bottom: 5%;
+}
+
+.form input[type = submit]{
+  background-color: #27AE60;
+  width: 30%;
+  cursor: pointer;
 }

@@ -36,12 +36,12 @@ function AddNotesForm({ handleNewData }) {
         <input
           onChange={handleChange}
           type="text"
-          placeholder="choose category"
+          placeholder="enter custom category"
           name="category"
         />
-        <label>Date</label>
+        <label>Date:</label>
         <input onChange={handleChange} type="date" name="date" />
-        <label>Add Note</label>
+        <label>Content:</label>
         <textarea onChange={handleChange} name="text" required />
         <input type="submit" value="Submit" />
       </form>
