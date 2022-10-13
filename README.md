@@ -28,8 +28,10 @@ Reach out on Twitter:
 - [License](#license-information)
 
 ## Description
-
-## Getting Started with Create React App
+Notes Keeper is an application written in `React JS` and styled in `CSS`.  
+This is an apllication where a user is able to quickly take down notes on the go and save them for later.  
+The application allows one to add their own custom category and in instances where notes are many  
+you can quickly search through the app by the category used.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -43,7 +45,10 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You may also see any lint errors in the console.\
+\
+You can also view this project by clicking on the live link provided [here](#live-link-to-project).
+
 
 
 ## Project Build Up
@@ -54,7 +59,7 @@ You may also see any lint errors in the console.
 - A computer.  
 * Visual studio code editor and these dependacies installed:  
 
-          * React Router version 5.0.0.
+          * React Router version 5.0.0. : if you are to make changes locally.
           * JSON Server.
           * Prettier formater.
           * Node JS should be installed prior to executing the codes on your computer.
