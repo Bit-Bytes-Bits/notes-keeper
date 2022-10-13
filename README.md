@@ -74,7 +74,7 @@ You may also see any lint errors in the console.
 
 ## Live Link To Project:  
 
-[Click here]()
+[Click here](https://brilliant-churros-7d83eb.netlify.app/)
 
 
 ## Project Images
